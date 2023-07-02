@@ -11,5 +11,7 @@ Array.prototype.insertFirstPosition = function (value) {
 };
 
 const numbers = [1, 2, 3];
-numbers.insertFirstPosition(-10);
+// numbers.insertFirstPosition(-10);
+
+numbers.pop();
 console.log(numbers);
